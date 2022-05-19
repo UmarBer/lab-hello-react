@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo {
+  height: 182px;
+  width: 182px;
+}
+.secondSection {
+  display: flex;
+  flex-direction: row;
+  margin: 8rem 8rem 0 8rem;
+}
+
+.secondSection .declarative {
+  text-align: left;
+  margin-left: 5rem;
+}
+.secondSection .components {
+  text-align: left;
+  margin-left: 6rem;
+}
+.secondSection .single-way {
+  text-align: left;
+  margin-left: 6rem;
+}
+.secondSection .JSX {
+  text-align: left;
+  margin-left: 5rem;
+}
+
+.secondSection .declarative-p {
+  text-align: left;
+  margin-left: 5rem;
+  margin-right: 4.5rem;
+}
+.secondSection .components-p {
+  text-align: left;
+  margin-left: 6rem;
+  margin-right: 5.5rem;
+}
+.secondSection .single-way-p {
+  text-align: left;
+  margin-left: 6rem;
+  margin-right: 4rem;
+}
+.secondSection .JSX-p {
+  text-align: left;
+  margin-left: 5rem;
+  margin-right: 3rem;
+}
